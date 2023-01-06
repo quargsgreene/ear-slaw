@@ -35,6 +35,11 @@ p {
     color: #E34234;
     background: #050533;
   }
+
+  #__next {
+    background: #050533;
+  }
+
   .listitem:hover,
   .listitem:focus,
   .listitem:active {
