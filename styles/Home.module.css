@@ -1,0 +1,106 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 3;
+}
+.nav {
+  font-family: 'Press Start 2P';
+  color: #0D698B;
+}
+.button {
+  font-family: 'Press Start 2P';
+  color: #0D698B;
+  border: none;
+  background: transparent;
+  text-align: center;
+  font-size: 2rem;
+  padding: 25%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+.title a {
+  color: #0D698B;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  flex-direction:column;
+  color: inherit;
+  gap: 1.5rem;
+  text-decoration: none;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 500px;
+  list-style: none;
+}
+
+.listitem:hover,
+.listitem:focus,
+.listitem:active {
+  color: #E34234;
+}
+
+.scene{
+  width:100vw;
+  height:100vh;
+}
+
+.canvas{
+  background: #000;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .button {
+    border: none;
+    background: transparent;
+    align-self:end;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+}
